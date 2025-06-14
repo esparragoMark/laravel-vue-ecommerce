@@ -8,7 +8,8 @@ defineProps({
 </script>
 
 <template>
-  <h1 class="bg-pink-500">Mark Esaparrago</h1>
+  <h1 class="bg-purple-500 text-green-700">{{ msg }}</h1>
+
 </template>
 
 
@@ -18,7 +19,7 @@ h1 {
   font-weight: 500;
   font-size: 2.6rem;
   position: relative;
-  top: -10px;
+  top: -20px;
 }
 
 h3 {
